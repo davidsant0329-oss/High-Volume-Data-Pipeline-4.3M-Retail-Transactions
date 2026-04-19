@@ -1,44 +1,60 @@
-🚀 Large-Scale Retail Data Pipeline (4.3M Records)
-📌 Project Overview
-This project is an end-to-end data engineering solution for a massive sales dataset containing 4.3 million records. The workflow includes raw data extraction, automated Python cleaning, SQL Server storage, and an advanced Power BI dashboard.
+# 🚀 Large-Scale Retail Data Pipeline (4.3M Records)
 
-🏗️ 1. Data Cleaning & ETL (Python)
-The Challenge: The original dataset was massive and "dirty," containing null values, disordered formats, and duplicates that made it impossible to process in traditional tools like Excel.
+---
 
-The Solution: I developed a Python script using the Pandas library to process Big Data efficiently.
+## 🇺🇸 English Version
 
-Removed duplicate records and managed null values to ensure data quality.
+### 📌 Project Overview
+This project represents a **full-stack data engineering and analytics solution** for a massive retail dataset. Handling over **4.3 million transactions**, the pipeline ensures data integrity from raw ingestion to high-level executive insights.
 
-Standardized date formats and numerical columns for accurate analysis.
+### 🏗️ 1. Data Cleaning & ETL (Python)
+* **The Challenge:** The raw data was highly inconsistent, featuring null values, duplicate records, and structural disorder that made it impossible to process via traditional spreadsheets.
+* **The Solution:** Developed a high-performance **Python** script using the `Pandas` library to clean and transform the big data.
+    * 🛠️ **Refining:** Automated removal of duplicates and null-value imputation.
+    * 📏 **Standardization:** Normalized date formats and numerical scales for seamless integration.
+    * 📤 **Export:** Streamlined the data into a high-quality CSV ready for database ingestion.
 
-Automated the export of optimized data into a clean CSV format.
+### 🗄️ 2. Database Integration (SQL Server)
+* Successfully migrated **4.3 million rows** into a **SQL Server** relational database (`BASED`).
+* **Optimization:** Fine-tuned data types and schemas to guarantee ultra-fast query performance, ensuring the Power BI model remains responsive despite the data volume.
 
-🗄️ 2. Database Integration (SQL Server)
-Used a connection script to migrate the 4.3 million clean records directly into a SQL Server database (BASED).
+### 📊 3. Power BI Modeling & Insights
+* **Robust Architecture:** Built a scalable data model connected directly to SQL.
+* **Strategic Dashboards:**
+    * **Retail Intelligence:** Global revenue trends and time-series forecasting.
+    * **Inventory Analysis:** Product performance mapping via Treemaps and Scatter plots.
+    * **Operational Efficiency:** Deep dive into hourly sales patterns and geographic revenue heatmaps.
 
-Optimized SQL data types to ensure that queries and Power BI loading remained extremely fast despite the massive volume of information.
+### 🛠️ Tech Stack
+* **Python** (Pandas, NumPy) | **SQL Server** (T-SQL) | **Power BI** (DAX, Power Query)
 
-📊 3. Power BI Modeling & Insights
-Connected Power BI to SQL Server to create a robust, scalable, and high-performance data model.
+---
 
-Developed an interactive report with 3 main perspectives:
+## 🇪🇸 Versión en Español
 
-Retail Dataset: Global analysis of sales, revenue, and time-series trends.
+### 📌 Resumen del Proyecto
+Este proyecto representa una **solución integral de ingeniería de datos y analítica** para un dataset masivo de retail. Gestionando más de **4.3 millones de transacciones**, el pipeline garantiza la integridad de la información desde su origen hasta la visualización de insights ejecutivos.
 
-Inventory: Product performance and stock distribution using Treemaps and Scatter plots.
+### 🏗️ 1. Limpieza de Datos y ETL (Python)
+* **El Desafío:** Los datos crudos eran inconsistentes, presentaban valores nulos, duplicados y un desorden estructural que impedía su procesamiento en herramientas tradicionales como Excel.
+* **La Solución:** Programé un script de **Python** de alto rendimiento utilizando `Pandas` para limpiar y transformar este volumen de Big Data.
+    * 🛠️ **Depuración:** Eliminación automatizada de duplicados y gestión inteligente de valores nulos.
+    * 📏 **Estandarización:** Normalización de formatos de fecha y escalas numéricas.
+    * 📤 **Exportación:** Generación de un CSV de alta calidad listo para la carga en base de datos.
 
-Operations: Hourly efficiency analysis and geographic revenue heatmaps.
+### 🗄️ 2. Integración de Base de Datos (SQL Server)
+* Migración exitosa de **4.3 millones de registros** a una base de datos relacional en **SQL Server** (`BASED`).
+* **Optimización:** Ajuste de tipos de datos y esquemas para garantizar consultas ultra rápidas, permitiendo que el modelo de Power BI sea fluido a pesar del volumen masivo.
 
-🛠️ 4. Tech Stack
-Python (Pandas & NumPy): Big Data cleaning, transformation, and manipulation.
+### 📊 3. Modelado y Análisis en Power BI
+* **Arquitectura Robusta:** Creación de un modelo de datos escalable conectado directamente a SQL.
+* **Dashboards Estratégicos:**
+    * **Retail Intelligence:** Tendencias de ingresos globales y análisis temporal.
+    * **Análisis de Inventario:** Rendimiento de productos mediante Treemaps y gráficos de dispersión.
+    * **Eficiencia Operativa:** Análisis profundo de patrones de venta por hora y mapas de calor geográficos.
 
-SQL Server: Structured storage and relational database management.
+### 🛠️ Tecnologías Utilizadas
+* **Python** (Pandas, NumPy) | **SQL Server** (T-SQL) | **Power BI** (DAX, Power Query)
 
-Power BI (DAX & Power Query): Analytical modeling, advanced calculations, and data visualization.
-
-📈 5. Key Results
-Scalability: Successful processing and smooth visualization of 4.3 million rows with zero dashboard latency.
-
-Automation: Drastic reduction in data preparation time (from hours of manual cleaning to seconds via code).
-
-Data Integrity: 100% verified data ready for evidence-based business decision-making.
+---
+> **Status:** Project Completed ✅ | **Data Volume:** 4,300,000+ Rows 📈
