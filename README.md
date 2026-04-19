@@ -58,3 +58,23 @@ Este proyecto representa una **solución integral de ingeniería de datos y anal
 
 ---
 > **Status:** Project Completed ✅ | **Data Volume:** 4,300,000+ Rows 📈
+>
+> ## 🖼️ Project Visuals / Galería del Proyecto
+
+### 📊 Dashboard Overview (4.3 Million Records)
+*A continuación se muestran las tres páginas principales del reporte interactivo, diseñado para procesar y visualizar Big Data de Retail sin pérdida de rendimiento.*
+
+| 📈 1. Retail Dataset (Main) | 📦 2. Inventario |
+| :---: | :---: |
+| ![Página 1](1PAGE.png) | ![Página 2](2PAGE.png) |
+| *Análisis global de ventas y KPIs principales.* | *Rendimiento de productos y distribución de stock.* |
+
+| 🌍 3. Operaciones | 📂 4. Raw Data Scale (CSV) |
+| :---: | :---: |
+| ![Página 3](3PAGE.png) | ![Foto CSV](CSV.png) |
+| *Mapa de calor global y eficiencia horaria.* | *Evidencia del dataset original de 4.3M de registros.* |
+
+---
+
+### 🔍 Technical Proof / Evidencia Técnica
+> **Nota:** Debido al volumen masivo de **4,300,000+ filas**, el archivo `.pbix` y el procesamiento se gestionan de forma local para garantizar la fluidez. Las capturas arriba demuestran la arquitectura final y la capacidad del modelo para resumir grandes cantidades de información en insights accionables.
